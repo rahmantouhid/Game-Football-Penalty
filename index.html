@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img alt="" class="ground">
+    <img src="images/keeper.png" class="i2" id="b2">
+    <button id="b1" class="ball" onclick="goal()">
+        <img src="images/ball.png" alt="" class="i1">
+    </button>
+    <h1 class="scorecount">Score Count: <span id="Score">0</span></h1>
+    <div class="controlgoal">
+        <h1 class="ballcontrol">Ball Controls:</h1>
+        <br><br><br>
+        <button class="control" onclick="LeftTop()">Left top</button>
+        <button class="control" onclick="CenterTop()">Center Top</button>
+        <button class="control" onclick="RightTop()">Right Top</button>
+        <button class="control" onclick="LeftMiddle()">Left Mid</button>
+        <button class="control" onclick="CenterMiddle()">Center Mid</button>
+        <button class="control" onclick="RightMiddle()"> Right Mid</button>
+        <button class="control" onclick="LeftBottom()">Left Bottom</button>
+        <button class="control" onclick="CenterBottom()">Center Bottom</button>
+        <button class="control" onclick="RightBottom()">Right Bottom</button>
+        <br><br><br><br><br>
+
+    </div>
+    <div class="right">
+        <h1 id="GoalDone1"></h1>
+    </div>
+    <div class="left">
+        <h1 id="GoalDone2"></h1>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
